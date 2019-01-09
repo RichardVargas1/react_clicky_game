@@ -1,29 +1,31 @@
-// import bender from './images/bender.png';
-// import scruffy from './images/';
-// import zoidberg from './images/';
-// import amy from './images/';
-// import farnsworth from './images/';
-// import hermes from './images/';
-// import kif from './images/';
-// import lrrr from './images/';
-// import nibbler from './images/';
-// import fry from './images/';
-// import leela from './images/';
-// import zapp from './images/';
+// importing images images folder.
+import amy from './images/FuturamaAmyWong.png';
+import bender from './images/bender.png';
+import farnsworth from './images/farnsworth.png';
+import fry from './images/fry.png';
+import hermes from './images/hermes.png';
+import kif from './images/kif.jpg';
+import leela from './images/leela.png';
+import lrrr from './images/_lrrr.jpg';
+import nibbler from './images/nibbler.jpg';
+import scruffy from './images/scruffy.png';
+import zapp from './images/zapp.png';
+import zoidberg from './images/zoidberg.png';
 
-// const images = [
-//   bender,
-//   scruffy,
-//   zoidberg,
-//   amy,
-//   farnsworth,
-//   hermes,
-//   kif,
-//   lrrr,
-//   nibbler,
-//   fry,
-//   leela,
-//   zapp
-// ];
+// array containing images that will be displayed on the application.
+const images = [
+    amy,
+    bender,
+    farnsworth,
+    fry,
+    hermes,
+    kif,
+    leela,
+    lrrr,
+    nibbler,
+    scruffy,
+    zapp,
+    zoidberg
+];
 
-// export default images;
+export default images;
