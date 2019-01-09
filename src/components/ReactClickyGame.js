@@ -18,12 +18,10 @@ class ReactClickyGame extends Component {
     navMessage: 'Click On a Character to begin!',
 
     // Stored images
-    allCharacters: this.shuffleFuturamaArray(),
+    allFuturamaCharacters: this.shuffleFuturamaArray(),
 
     // empty array that will track each element clicked on.
     imageClicked: [],
-
-    shake: false
   };
 
   // binds the current this (ReactClickyGame)to checkUserClicked to have access to state
@@ -86,9 +84,8 @@ class ReactClickyGame extends Component {
         highScore: highScore,
         navMsgColor: 'incorrect',
         navMessage: 'You Guessed Wrong!',
-        allCharacters: shuffledArray,
+        allFuturamaCharacters: shuffledArray,
         imageClicked: [],
-        shake: true
       });
     }
 
@@ -98,14 +95,13 @@ class ReactClickyGame extends Component {
       highScore: highScore,
       navMsgColor: 'correct',
       navMessage: 'You Guessed Right!',
-      allCharacters: shuffledArray,
+      allFuturamaCharacters: shuffledArray,
       imageClicked: previousState,
-      shake: false
     });
   }
 
   // This line of code, 110-127, will set the current score to the Nav
-  // passes the randomized state.allCharacters array to wrapper to create a Character component for each image.
+  // passes the randomized state.allFuturamaCharacters array to wrapper to create a Character component for each image.
   // passes the this.checkUserClick down to wrapper to pass to each Character component to be used for the click event.
   render() {
     const state = this.state;
@@ -119,8 +115,7 @@ class ReactClickyGame extends Component {
         />
         <Header />
         <Wrapper
-          shake={state.shake}
-          characters={state.allCharacters}
+          characters={state.allFuturamaCharacters}
           clickEvent={this.clickEvent}
         />
         <Footer />

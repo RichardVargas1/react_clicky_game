@@ -1,0 +1,17 @@
+.Wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+@media (min-width: 1100px) {
+    .Wrapper {
+        padding: 0 100px;
+        width: 1100px;
+    }
+}
+
+.Wrapper {
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}

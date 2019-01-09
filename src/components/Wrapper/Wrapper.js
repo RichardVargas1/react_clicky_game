@@ -10,9 +10,9 @@ const Wrapper = props => (
   // loops through wrapper
   <div
     className={
-      props.shake
-        ? 'container d-flex flex-wrap justify-content-center shake'
-        : 'container d-flex flex-wrap justify-content-center'
+      props
+        ? 'Wrapper d-flex flex-wrap justify-content-center'
+        : 'Wrapper d-flex flex-wrap justify-content-center'
     }
   >
     {props.characters.map((a, i) => <CharacterCard name={a} key={i} clickEvent={props.clickEvent} />)}

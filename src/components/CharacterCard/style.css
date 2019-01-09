@@ -1,0 +1,18 @@
+.card {
+  border: 3px solid #4b4b4b;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  cursor: pointer;
+  height: 170px;
+  margin: 15px;
+  overflow: hidden;
+  width: 170px;
+}
+
+.card-img-top {
+  border-radius: 0;
+}
+
+.card-height {
+  height: 100% !important;
+  width: 100% !important;
+}

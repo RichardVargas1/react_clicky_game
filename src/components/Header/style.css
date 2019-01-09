@@ -1,0 +1,14 @@
+.header {
+    background-image: url('../../images/prism.png') !important;
+    height: 50px;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+@media (min-width: 576px) {
+    .header {
+        font-size: calc(10px + 14 * (100vw - 320px) / 800);
+    }
+}
