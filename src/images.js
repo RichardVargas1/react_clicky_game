@@ -9,7 +9,7 @@ import leela from './images/leela.png';
 import lrrr from './images/_lrrr.jpg';
 import nibbler from './images/nibbler.jpg';
 import scruffy from './images/scruffy.png';
-import zapp from './images/zapp.png';
+// import zapp from './images/zapp.png';
 import zoidberg from './images/zoidberg.png';
 
 // array containing images that will be displayed on the application.
@@ -24,7 +24,7 @@ const images = [
     lrrr,
     nibbler,
     scruffy,
-    zapp,
+    // zapp,
     zoidberg
 ];
 
